@@ -7,5 +7,10 @@ Part 01:
 - HTML is not case sensitive; html and HTML is same
 
 Part 02:
-- 
+- HTML Attributes:
+    #. Attributes are used to add more information to the tag
+    #. Example: <html lang="en"></html>
 
+- Heading tags should use to show the importance not for size
+
+- Anchor Tag: it adds links to webpage
