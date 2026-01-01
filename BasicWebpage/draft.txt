@@ -14,3 +14,5 @@ Part 02:
 - Heading tags should use to show the importance not for size
 
 - Anchor Tag: it adds links to webpage
+    #. Relative tag
+    #. Absolute tag
