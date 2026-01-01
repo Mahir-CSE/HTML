@@ -1,0 +1,11 @@
+Part 01:
+- HTML tag is the parent/root of an HTML Document
+- Head and Body are child of html root
+- Data that should not be displayed in the webpage, should be under head container (Not rendered)
+- Data that we want to display should be under body container
+
+- HTML is not case sensitive; html and HTML is same
+
+Part 02:
+- 
+
