@@ -16,3 +16,43 @@ Part 02:
 - Anchor Tag: it adds links to webpage
     #. Relative tag
     #. Absolute tag
+
+- Image tag: use to add images to the webpage
+    # src
+    # alt 
+    # width
+    # height
+    # better to use one between height or width to get proper dimension
+
+- <br> tag: used to go nextline
+
+- bold, italic, underline tags
+
+- big and small tag that are used for big/small text in the webpage
+
+- <hr> tag create sections with a line
+
+-subscript and superscript tag
+
+- Difference between pre and p tag:
+    # pre considers the spaces , nextlines and tabs but p tag does not consider those
+
+Part 03: Discussing about layouts
+
+- Semantic and Non Semantic tags:
+
+    #. Semantic tag: 
+        - header
+        - main
+        - footer
+
+    #. Non Semantic tag:
+        - div
+        - span
+
+    # Main tag:
+        - Section tag
+        - Article tag
+        - Aside tag
+
+
