@@ -55,4 +55,33 @@ Part 03: Discussing about layouts
         - Article tag
         - Aside tag
 
+- Non Semantic tags: tags that don't have any direct effect on the webpage:
+
+    # div: block element (Covers the entire block/webpage/space)
+    # span: inline element (Covers only the used space)
+
+- Lists:
+    # Unordered list: <ul>
+    # ordered list: <ol>
+
+- input:
+    # text
+    # password
+    # radio
+
+- label
+
+- class & id
+    # id = individual
+    # group = collection
+
+- textarea
+
+- select / dropdown
+
+- option
+
+- iframe
+
+- video tags
 
