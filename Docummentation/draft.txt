@@ -1,0 +1,55 @@
+1. HTML Styles:
+    a. Syntax: <tagname style="property:value;">
+    b. Syntax (multiple): <tagname style="property:value; property:value; property:value;"
+    c. Example: <h3 style="color: darkslategray; text-align: center; font-family: sans-serif;">Mahir Ahmed Niloy</h3>
+    d. topics covered:
+        # Use the style attribute for styling HTML elements
+        # Use background-color for background color
+        # Use color for text colors
+        # Use font-family for text fonts
+        # Use font-size for text sizes
+        # Use text-align for text alignment
+
+2. HTML Formatting:
+    a. <b> - Bold text
+    b. <strong> - Important text
+    c. <i> - Italic text
+    d. <em> - Emphasized text
+    e. <mark> - Marked text
+    f. <small> - Smaller text
+    g. <del> - Deleted text
+    h. <ins> - Inserted text
+    i. <sub> - Subscript text
+    j. <sup> - Superscript text
+
+    Use case of HTML formatting elements:
+    <b> - Bold
+        Why it exists: To make text visually stand out without implying it's more important than surrounding text. Just visual styling.
+        Problem it solves: Sometimes you need text to look different for readability or design, but it's not actually "important" - like making a keyword easy to spot or styling a UI element.
+    <strong> - Important
+        Why it exists: To tell browsers, screen readers, and search engines "this text is critically important."
+        Problem it solves: Blind users need to know what's important. A screen reader can change its tone or volume for <strong> text. Also helps search engines understand key points in your content.
+    <i> - Italic
+        Why it exists: To follow typographic conventions where certain text should be styled differently by tradition.
+        Problem it solves: In writing, we italicize ship names, foreign words, book titles, etc. This is just following standard publishing rules without adding semantic meaning.
+    <em> - Emphasized
+        Why it exists: To represent how you'd say something with vocal stress or emphasis.
+        Problem it solves: Screen readers can add vocal stress when reading <em> text, so "I really mean it" sounds different than "I really mean it" - just like in speech.
+    <mark> - Highlighted
+        Why it exists: To show text that's relevant to the current context or user's action.
+        Problem it solves: When you search for "apple" on a page, the word needs to be highlighted so you can find it quickly. Like using a highlighter pen on paper.
+    <small> - Smaller Text
+        Why it exists: To show text that's less important or supplementary, like legal fine print.
+        Problem it solves: Some text needs to be there legally or for completeness, but shouldn't distract from the main content. Visually de-emphasizes it.
+    <del> - Deleted
+        Why it exists: To show that content has been removed while keeping it visible for context.
+        Problem it solves: In document editing, price changes, or to-do lists, you want to show what was there but is no longer valid. Better than just erasing it because readers can see the history.
+    <ins> - Inserted
+        Why it exists: To show that content has been added or updated.
+        Problem it solves: When you update a document, readers need to know what's new. In legal documents or collaborative editing, tracking insertions is crucial for transparency.
+    <sub> - Subscript
+        Why it exists: To properly display scientific, mathematical, and technical notation.
+        Problem it solves: You can't write "H2O" in regular text and have it look correct. The "2" needs to be lower and smaller to match scientific conventions. Essential for chemistry, math, and technical docs.
+    <sup> - Superscript
+        Why it exists: To display exponents, ordinals, footnotes, and trademark symbols correctly.
+        Problem it solves: "E=mc2" looks wrong - it needs to be "E=mc²". Mathematical formulas, footnote references, and trademark symbols require proper superscript formatting to be readable and correct.
