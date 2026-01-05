@@ -66,4 +66,57 @@
         _parent - Opens the document in the parent frame
         _top - Opens the document in the full body of the window
 
+4. HTML quotations:
+
+    a. <abbr> - Defines an abbreviation or acronym
+
+        html
+        <abbr title="HyperText Markup Language">HTML</abbr>
+
+            Why use it: Provides the full form of abbreviations for accessibility and clarity. Screen readers can announce the full text, and browsers typically show the title on hover.
+
+            Use case: Technical documentation, articles with acronyms (NASA, FBI, API), or any abbreviated terms that need explanation.
+
+    b. <address> - Defines contact information
+
+        html
+        <address>Contact us at <a href="mailto:info@example.com">info@example.com</a></address>
+            Why use it: Semantically marks contact information, helping search engines and assistive technologies identify it as such. Usually displayed in italics by default.
+
+            Use case: Footer sections, author contact details, business addresses, or email information at the end of articles.
+
+    c.<bdo> - Defines text direction
+
+        html
+        <bdo dir="rtl">This text will be displayed right-to-left</bdo>
+            Why use it: Overrides the current text direction, useful for mixing languages with different reading directions (like Arabic or Hebrew with English).
+
+            Use case: Multilingual websites, displaying right-to-left languages within left-to-right content, or creating special text effects.
+
+    d. <blockquote> - Defines a quoted section
+
+        html
+        <blockquote cite="https://example.com">This is a longer quotation from another source.</blockquote>
+            Why use it: Semantically indicates that content is a quotation from an external source. Browsers typically indent it, and it improves SEO and accessibility.
+
+            Use case: Blog posts with quotes, testimonials, citing sources, or displaying excerpts from other documents.
+
+    e.<cite> - Defines the title of a work
+
+        html
+        <p>My favorite book is <cite>The Great Gatsby</cite> by F. Scott Fitzgerald.</p>
+            Why use it: Marks titles of creative works (books, movies, songs, paintings) for semantic meaning. Usually displayed in italics.
+
+            Use case: References to books, articles, films, songs, or any creative work titles in content.
+
+    f.<q> - Defines a short inline quotation
+
+        html
+        <p>He said, <q>The early bird catches the worm.</q></p>
+            Why use it: For short, inline quotations (browsers automatically add quotation marks around the text). More semantic than just using regular quotation marks.
+
+            Use case: Short quotes within paragraphs, dialogue snippets, or brief cited phrases that don't need a separate block.
+
+
+
         
