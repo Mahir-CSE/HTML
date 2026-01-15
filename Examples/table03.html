@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Table</title>
+
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+        padding: 5px;
+        text-align: left;    
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Cell that spans two columns</h2>
+        <p>To make a cell span more than one column, use the colspan attribute.</p>
+
+        <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th colspan="3">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+            <td>73472400</td>
+        </tr>
+        </table>
+        <hr>
+
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone Number</th>
+                <td>01782412035</td>
+            </tr>
+            <tr>
+                <td>01601073173</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        
+    </div>
+    
+    
+</body>
+</html>
