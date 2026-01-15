@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 06</title>
+
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+        padding: 15px;
+        text-align: left;
+        }
+        #t01 {
+        width: 50%;    
+        background-color: #dcdc9b;
+        }
+
+        #t02 tr:nth-child(even) {
+        background-color: #eee;
+        }
+
+        #t02 tr:nth-child(odd) {
+        background-color: #fff;
+        }
+
+        #t02 th {
+        background-color: black;
+        color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Styling Tables</h2>
+
+    <table style="width:100%">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+    </tr>
+    </table>
+    <br>
+
+    <table id="t01">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+    </tr>
+    </table><br>
+
+    <table id="t02">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th> 
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
